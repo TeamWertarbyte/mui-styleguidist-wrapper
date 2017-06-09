@@ -12,7 +12,7 @@ npm i --save-dev @wertarbyte/mui-styleguidist-wrapper
 ## Usage
 1. Install the wrapper
    ```
-   npm i --save-dev @wertarbyte/mui-styleguidist-wrapper`
+   npm i --save-dev @wertarbyte/mui-styleguidist-wrapper
    ```
 2. Add the following lines to the `scripts` section of the `package.json` file:
    ```
