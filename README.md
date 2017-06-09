@@ -1,5 +1,7 @@
 # Minimal Material-UI styleguidist wrapper
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/TeamWertarbyte/mui-styleguidist-wrapper.svg)](https://greenkeeper.io/)
+
 This is a tiny component we use to create [React Styleguidist][styleguidist] guides for our [Material-UI] components with minimal effort.
 
 [material-ui]: http://material-ui.com
