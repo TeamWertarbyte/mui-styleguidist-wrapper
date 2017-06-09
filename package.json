@@ -1,0 +1,36 @@
+{
+  "name": "@wertarbyte/mui-styleguidist-wrapper",
+  "version": "0.1.0",
+  "description": "A wrapper of react-styleguidist for Material-UI components.",
+  "bin": {
+    "mui-styleguidist": "mui-styleguidist.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TeamWertarbyte/mui-styleguidist-wrapper.git"
+  },
+  "keywords": [
+    "react",
+    "material",
+    "password",
+    "field",
+    "input"
+  ],
+  "author": "Wertarbyte <kontakt@wertarbyte.com> (https://wertarbyte.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/TeamWertarbyte/mui-styleguidist-wrapper/issues"
+  },
+  "homepage": "https://github.com/TeamWertarbyte/mui-styleguidist-wrapper#readme",
+  "dependencies": {
+    "@webpack-blocks/babel6": "^0.4.1",
+    "@webpack-blocks/webpack2": "^0.4.0",
+    "lodash.defaultsdeep": "^4.6.0",
+    "material-ui": "^0.18.3",
+    "prop-types": "^15.5.10",
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4",
+    "react-styleguidist": "^5.4.1",
+    "react-tap-event-plugin": "^2.0.1"
+  }
+}
