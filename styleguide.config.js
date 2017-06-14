@@ -9,7 +9,9 @@ const defaultConfig = {
   webpackConfig: Object.assign(createConfig([ babel() ]), {
     resolve: {
       alias: {
-        'rsg-components/Wrapper': path.join(__dirname, 'Wrapper')
+        'rsg-components/Wrapper': path.join(__dirname, 'Wrapper'),
+        'react': path.join(__dirname, 'node_modules', 'react'),
+        'react-dom': path.join(__dirname, 'node_modules', 'react-dom')
       },
       modules: []
     }
