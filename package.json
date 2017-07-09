@@ -5,6 +5,10 @@
   "bin": {
     "mui-styleguidist": "mui-styleguidist.js"
   },
+  "scripts": {
+    "build": "mkdir -p lib && babel Wrapper.js > lib/Wrapper.js",
+    "prepare": "mkdir -p lib && babel Wrapper.js > lib/Wrapper.js"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/TeamWertarbyte/mui-styleguidist-wrapper.git"
@@ -32,5 +36,11 @@
     "react-dom": "^15.5.4",
     "react-styleguidist": "^5.4.1",
     "react-tap-event-plugin": "^2.0.1"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1"
   }
 }

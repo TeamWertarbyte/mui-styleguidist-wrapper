@@ -6,16 +6,16 @@ const defaultsDeep = require('lodash.defaultsdeep')
 
 const defaultConfig = {
   styleguideDir: path.join(process.cwd(), 'styleguide'),
-  webpackConfig: Object.assign(createConfig([ babel() ]), {
+  webpackConfig: defaultsDeep({
     resolve: {
       alias: {
-        'rsg-components/Wrapper': path.join(__dirname, 'Wrapper'),
-        'react': path.join(__dirname, 'node_modules', 'react'),
-        'react-dom': path.join(__dirname, 'node_modules', 'react-dom')
+        'rsg-components/Wrapper': path.join(__dirname, 'lib', 'Wrapper'),
+        'react': path.dirname(require.resolve('react')),
+        'react-dom': path.dirname(require.resolve('react-dom'))
       },
       modules: []
     }
-  }),
+  }, createConfig([ babel() ])),
   skipComponentsWithoutExample: true,
   components: process.cwd() + '/src/**/[A-Z]*.js',
 
