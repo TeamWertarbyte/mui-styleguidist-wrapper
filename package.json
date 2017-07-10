@@ -1,6 +1,6 @@
 {
   "name": "@wertarbyte/mui-styleguidist-wrapper",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "A wrapper of react-styleguidist for Material-UI components.",
   "bin": {
     "mui-styleguidist": "mui-styleguidist.js"
